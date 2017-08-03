@@ -12,7 +12,7 @@ spec:
     sourceStrategy:
       from:
         kind: ImageStreamTag
-        name: jenkins:latest
+        name: jenkins-slave-base-rhel7:latest
         namespace: openshift
     type: Source
   output:                       
