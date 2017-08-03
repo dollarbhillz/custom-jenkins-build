@@ -23,7 +23,7 @@
 
 - job-template:
     name: 'angry-canary-work-{time-tag}'
-    node: 'rcm-worker-1'
+    node: 'master'
     project-type: freestyle
     defaults: global
     disabled: false
