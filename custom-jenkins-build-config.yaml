@@ -13,7 +13,7 @@ spec:
       from:
         kind: ImageStreamTag
         name: jenkins-slave-base-rhel7:latest
-        namespace: openshift
+        namespace: jenkins-test
     type: Source
   output:                       
     to:
